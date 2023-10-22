@@ -1,0 +1,110 @@
+body{
+    background-color: #0074a2;
+}
+
+.head {
+    background-color:#4aabf0;
+    color: goldenrod;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+h1 {
+    margin: 0;
+  }
+  
+.nav {
+    align-content: center; 
+    background-color: goldenrod;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+  }
+  
+.menu {
+    display: inline;
+    padding: 10px 20px;
+  }
+  
+.menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+.menu a:hover {
+    text-decoration: underline;
+  }
+
+ 
+.nav ul {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+
+.footer {
+    background-color: #115dcf;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid goldenrod; 
+    display: inline-block; 
+  }
+  
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.footer a:hover {
+    text-decoration: underline;
+  }
+
+.about{
+    background-color: #4aabf0 ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.jtpi{
+    background-color: #4aabf0 ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.jtik{
+    background-color: #4aabf0 ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.sains{
+    background-color: #4aabf0 ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}

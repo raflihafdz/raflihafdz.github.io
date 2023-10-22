@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS FORMULIR</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            <img src="logoItera.png" alt="Logo" class="logo">
+        </header>
+    
+        <nav class="nav">
+            <ul>
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="formulir.html">Formulir</a></li>
+                <li class="menu"><a href="table.html">Tabel</a></li>
+            </ul>
+        </nav>    
+
+    </div>
+
+    <div class="formulir">
+        <h1>Form Pendaftaran</h1>
+        <form action="submit_form.php" method="get">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim" required>
+            </div>
+
+            <div class="form-group">
+                <label for="prodi">Program Studi:</label>
+                <input type="text" id="prodi" name="prodi" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Jenis Kelamin:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Perempuan</label>
+            </div>
+
+            <div class="form-group">
+                <label for="tgl_lahir">Tanggal Lahir:</label>
+                <input type="date" id="tgl_lahir" name="tgl_lahir" required>
+            </div>
+
+            <div class="form-group">
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" rows="4" required></textarea>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+            
+        </form>
+    </div>
+
+    <footer class="footer">
+        &copy; 2023 RAFLI HAFIDZ FADILAH
+    </footer>
+
+
+</body>
+</html>
